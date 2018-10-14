@@ -198,44 +198,5 @@ form p{
 #pic2, #pic3, #pic4{
     transform: rotate(90deg);
     /* not sure why my images are not filling the divs... */
-    object-fit: contain;
-    
+    object-fit: contain;   
 }
-
-/* // Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-
-    header {
-        width: 100%;
-    }
-
-    .directory {
-        width: 100%;
-    }
-}
-
-/* // Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
-
-}
-
-/* // Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
-
-}
-
-/* // Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {
-
-}
-
-/* // Extra large devices (large desktops) */
-/* // No media query since the extra-large breakpoint has no upper bound on its width */
-
-
-
-
-
-
-
-
