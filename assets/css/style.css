@@ -51,7 +51,7 @@ h1{
 
 #page-contents{
     background-color: #ffffff;
-    margin: auto;
+    /* margin: auto; */
     margin-top: 2em;
     /* width: 58em;  */
     padding: 1em;
@@ -178,7 +178,7 @@ form p{
 
 /* this is my container class for the image and the text divs  */
 .thumbnail{
-    /* float: left; */
+    float: left;
     /* position: relative; */
     margin: 3em 4em 0.5em 0em;
     border-style: solid;
@@ -186,7 +186,8 @@ form p{
     border-color: #666666;
     overflow: auto;
     /* not sure why my images are not filling the divs... */
-    object-fit: contain;
+    background-image: cover;
+    /* width: 50%; */
 }
 
 /* this makes the image go behind the text banner */
@@ -203,8 +204,13 @@ form p{
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-    col-3{
-        width:0;
+
+    header {
+        width: 100%;
+    }
+
+    .directory {
+        width: 100%;
     }
 }
 
